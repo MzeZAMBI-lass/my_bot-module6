@@ -1,0 +1,100 @@
+[16:23:24] ============================================================
+[16:23:24]   Bus-Route Planning Agent — Cycle Start
+[16:23:24]   2026-07-16 16:23:24 SAST
+[16:23:24] ============================================================
+[16:23:24] 
+[16:23:24] ── Repo Health ──────────────────────────────────────────────
+[16:23:24]   branch : main
+[16:23:24]   HEAD   : b5e6d55 add agent_runner.sh and first run output log
+[16:23:24] 
+[16:23:24] ── Pending Work ─────────────────────────────────────────────
+[16:23:25] 
+[16:23:25] ── WhatsApp Inbound Queue ───────────────────────────────────
+[16:23:25]   Webhook endpoint : not yet wired (Sprint 1 — beads SLA-AI-COURSE-001-3)
+[16:23:25]   Messages pending : 0
+[16:23:25]   Parser status    : stub only (plain-text address extraction not implemented)
+[16:23:25] 
+[16:23:25] ── Geocoding Pipeline ───────────────────────────────────────
+[16:23:25]   Provider         : Nominatim (1 req/sec, 2 000 req/day)
+[16:23:25]   Requests today   : 0 / 2 000
+[16:23:25]   Confidence thr.  : 0.70  (below → pending_review queue)
+[16:23:25]   Addresses queued : 0  (no submissions yet)
+[16:23:25]   Cache hits       : 0
+[16:23:25] 
+[16:23:25] ── Route Assignment ─────────────────────────────────────────
+[16:23:25]   Supabase/PostGIS : schema not yet applied (Sprint 2)
+[16:23:25]   Active routes    : 0
+[16:23:25]   Students pending : 0
+[16:23:25]   Staff review Q   : 0
+[16:23:25] 
+[16:23:25] ── Cycle Complete ───────────────────────────────────────────
+[16:23:25]   Log : /home/uphill/my_bot-module6/log/2026-07-16-agent-run-2026-07-16T16-23-24.log
+[16:23:25] 
+[16:23:25] Starting continuous loop (3 s interval for demo). Will run 2 cycles then exit.
+[16:23:25] >>> Loop cycle 1 <<<
+[16:23:25] ============================================================
+[16:23:25]   Bus-Route Planning Agent — Cycle Start
+[16:23:25]   2026-07-16 16:23:25 SAST
+[16:23:25] ============================================================
+[16:23:25] 
+[16:23:25] ── Repo Health ──────────────────────────────────────────────
+[16:23:25]   branch : main
+[16:23:25]   HEAD   : b5e6d55 add agent_runner.sh and first run output log
+[16:23:25] 
+[16:23:25] ── Pending Work ─────────────────────────────────────────────
+[16:23:25] 
+[16:23:25] ── WhatsApp Inbound Queue ───────────────────────────────────
+[16:23:25]   Webhook endpoint : not yet wired (Sprint 1 — beads SLA-AI-COURSE-001-3)
+[16:23:25]   Messages pending : 0
+[16:23:25]   Parser status    : stub only (plain-text address extraction not implemented)
+[16:23:25] 
+[16:23:25] ── Geocoding Pipeline ───────────────────────────────────────
+[16:23:25]   Provider         : Nominatim (1 req/sec, 2 000 req/day)
+[16:23:25]   Requests today   : 0 / 2 000
+[16:23:25]   Confidence thr.  : 0.70  (below → pending_review queue)
+[16:23:25]   Addresses queued : 0  (no submissions yet)
+[16:23:25]   Cache hits       : 0
+[16:23:25] 
+[16:23:25] ── Route Assignment ─────────────────────────────────────────
+[16:23:25]   Supabase/PostGIS : schema not yet applied (Sprint 2)
+[16:23:25]   Active routes    : 0
+[16:23:25]   Students pending : 0
+[16:23:25]   Staff review Q   : 0
+[16:23:25] 
+[16:23:25] ── Cycle Complete ───────────────────────────────────────────
+[16:23:25]   Log : /home/uphill/my_bot-module6/log/2026-07-16-agent-run-2026-07-16T16-23-24.log
+[16:23:25] 
+[16:23:28] >>> Loop cycle 2 <<<
+[16:23:28] ============================================================
+[16:23:28]   Bus-Route Planning Agent — Cycle Start
+[16:23:28]   2026-07-16 16:23:28 SAST
+[16:23:28] ============================================================
+[16:23:28] 
+[16:23:28] ── Repo Health ──────────────────────────────────────────────
+[16:23:28]   branch : main
+[16:23:28]   HEAD   : b5e6d55 add agent_runner.sh and first run output log
+[16:23:28] 
+[16:23:28] ── Pending Work ─────────────────────────────────────────────
+[16:23:28] 
+[16:23:28] ── WhatsApp Inbound Queue ───────────────────────────────────
+[16:23:28]   Webhook endpoint : not yet wired (Sprint 1 — beads SLA-AI-COURSE-001-3)
+[16:23:28]   Messages pending : 0
+[16:23:28]   Parser status    : stub only (plain-text address extraction not implemented)
+[16:23:28] 
+[16:23:28] ── Geocoding Pipeline ───────────────────────────────────────
+[16:23:28]   Provider         : Nominatim (1 req/sec, 2 000 req/day)
+[16:23:28]   Requests today   : 0 / 2 000
+[16:23:28]   Confidence thr.  : 0.70  (below → pending_review queue)
+[16:23:28]   Addresses queued : 0  (no submissions yet)
+[16:23:28]   Cache hits       : 0
+[16:23:28] 
+[16:23:28] ── Route Assignment ─────────────────────────────────────────
+[16:23:28]   Supabase/PostGIS : schema not yet applied (Sprint 2)
+[16:23:28]   Active routes    : 0
+[16:23:28]   Students pending : 0
+[16:23:28]   Staff review Q   : 0
+[16:23:28] 
+[16:23:28] ── Cycle Complete ───────────────────────────────────────────
+[16:23:28]   Log : /home/uphill/my_bot-module6/log/2026-07-16-agent-run-2026-07-16T16-23-24.log
+[16:23:28] 
+[16:23:28] Demo complete — 2 cycles finished.

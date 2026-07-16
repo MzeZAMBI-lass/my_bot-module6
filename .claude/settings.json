@@ -1,1 +1,27 @@
-{}
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "agent",
+            "prompt": "A file was just saved. The hook input is: $ARGUMENTS\n\nParse the JSON and check `tool_input.file_path`. If the path starts with `notes/`, run the daily wrap-up:\n1. Run `git log --oneline --since=midnight --format='%h %s'` for today's commits\n2. Run `bd list --status=closed` and `bd list --status=in_progress` for beads activity\n3. Read the notes file that was just saved\n4. Run `mkdir -p log` to ensure log/ exists\n5. Write a wrap-up to `log/YYYY-MM-DD.md` using today's real date, with Done / Doing / Next / Notes sections\n\nIf the path does NOT start with `notes/`, do nothing and return immediately.",
+            "statusMessage": "Daily wrap-up triggered by notes save..."
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash /home/uphill/my_bot-module6/.claude/hooks/session-close-check.sh"
+          }
+        ]
+      }
+    ]
+  }
+}
